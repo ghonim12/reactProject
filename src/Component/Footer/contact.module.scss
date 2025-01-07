@@ -1,0 +1,17 @@
+$main-color: #2c3e50;
+
+.contact {
+  background-color: $main-color;
+  padding: 60px 0;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}

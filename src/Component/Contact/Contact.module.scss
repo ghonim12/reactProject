@@ -1,0 +1,35 @@
+$main-color: #2c3e50;
+
+.title {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 5px;
+    background-color: $main-color;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -25px;
+  }
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    bottom: -42px;
+    border-radius: 50%;
+    z-index: 9;
+    transform: translateX(-50%);
+    background-color: white;
+    color: $main-color;
+  }
+}
+
+button{
+    background-color: #1ABC9C;
+}
